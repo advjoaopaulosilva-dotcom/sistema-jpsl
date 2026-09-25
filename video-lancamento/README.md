@@ -12,8 +12,8 @@
 | `verificar_ultimo_quadro.py` | compara o último quadro com o arquivo oficial |
 
 ```
-pip install pillow numpy imageio-ffmpeg
+pip install pillow numpy scipy imageio-ffmpeg
 python3 render.py --preview   # quadros-chave em PNG
-python3 render.py             # vídeo completo (~4 min em 4 núcleos)
+python3 render.py             # vídeo completo (~10 min em 4 núcleos)
 python3 verificar_ultimo_quadro.py
 ```

@@ -1,2 +1,3 @@
 __pycache__/
 video-lancamento/saida/preview_*.png
+video-lancamento/saida/*.npy
